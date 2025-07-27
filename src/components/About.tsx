@@ -38,7 +38,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-              🏏 When I’m not coding, you’ll probably find me smashing boundaries on the cricket field as an inter-district player or geeking out over Formula 1 races (yes, I can talk strategy for hours).
+              🏏 When I’m not coding, you’ll probably find me smashing boundaries on the cricket field  or geeking out over Formula 1 races 🏎️ (yes, I can talk strategy for hours).
 
 🚀 Always exploring new tech, building cool projects, and chasing that perfect mix of performance and design
               </p>
