@@ -26,12 +26,12 @@ const Hero = () => {
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight">
             <span className="block text-foreground">Hi, I'm</span>
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              John Doe
+              Megeshwar JB
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Full-Stack Developer & UI/UX Designer creating exceptional digital experiences
+          B.Tech Computer Science and Engineering Student from VIT Vellore.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">

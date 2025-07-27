@@ -10,32 +10,33 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard built with React and D3.js, featuring real-time data visualization and interactive charts.",
-      image: project1,
-      tags: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+      title: "Shopsy E-Commerce",
+      description: "A full-featured e-commerce platform with product catalog, cart, payment integration, and order management system for a seamless shopping experience.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBlSi-Ul_iH-ssdIB-EK1OEl9rgNs4G0O1w&s", 
+      tags: ["React", "Express", "MongoDB", "Stripe"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Megesh95/shopsy.git"
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: project2,
-      tags: ["Next.js", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
+      title: "F1 Lap Time Predictor",
+      description: "An AI-powered mobile app that predicts Formula 1 lap times using historical race data, weather conditions, and car performance metrics.",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202405/3115/d42f49dbdc6b9202f8356339e9eb6e82531e37ad2557cc58.png", 
+      tags: ["React Native", "Python", "Flask", "Machine Learning", "TensorFlow"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Megesh95/F1.git"
     },
     {
       id: 3,
-      title: "Mobile Fitness App",
-      description: "Cross-platform mobile app for fitness tracking with workout plans, progress monitoring, and social features.",
-      image: project3,
-      tags: ["React Native", "Firebase", "Redux", "Expo", "TypeScript"],
+      title: "V-Lens Glasses Platform",
+      description: "An innovative platform for virtual glasses try-on, featuring AR-based fitting, product recommendations, and seamless e-commerce integration.",
+      image: "https://turis.app/wp-content/uploads/2024/03/b2b-storefront-design-product-display.png", 
+      tags: ["React", "Tailwind CSS", "Firebase"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Megesh95/v-lens.git"
     }
   ];
+  
 
   return (
     <section id="projects" className="py-20 bg-background">
@@ -91,18 +92,14 @@ const Projects = () => {
 
                   <div className="flex space-x-3 pt-2">
                     <Button
+                      asChild
                       size="sm"
                       className="flex-1 bg-primary hover:bg-primary-glow text-primary-foreground"
                     >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="border-border hover:bg-secondary"
-                    >
-                      <Github className="w-4 h-4" />
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="w-4 h-4 mr-2" />
+                        GitHub
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
@@ -112,10 +109,13 @@ const Projects = () => {
 
           <div className="text-center mt-12">
             <Button
+              asChild
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-full font-medium"
             >
-              View All Projects
+              <a href="https://github.com/Megesh95" target="_blank" rel="noopener noreferrer">
+                View All Projects
+              </a>
             </Button>
           </div>
         </div>

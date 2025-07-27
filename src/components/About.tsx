@@ -2,8 +2,18 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "React", "TypeScript", "Next.js", "Node.js", "Python", "PostgreSQL",
-    "Tailwind CSS", "Figma", "AWS", "Docker", "GraphQL", "MongoDB"
+    "React",
+    "Tailwind CSS",
+    "Java",
+    "C++",
+    "Python",
+    "JavaScript",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Jupyter",
+    "Vite"
   ];
 
   return (
@@ -17,18 +27,18 @@ const About = () => {
             <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center justify-center text-center md:text-left">
+            <div className="space-y-6 md:mx-auto">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience 
-                building modern web applications. I love creating clean, efficient code 
-                and designing beautiful user interfaces that provide exceptional user experiences.
+              👋 Hi, I’m J. B. Megeshwar – a full-stack developer who loves turning ideas into sleek, modern web apps. I’m all about writing clean code, crafting smooth user experiences, and making tech feel effortless.
+
+
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open-source projects, or sharing knowledge with the 
-                developer community through blogs and speaking engagements.
+              🏏 When I’m not coding, you’ll probably find me smashing boundaries on the cricket field as an inter-district player or geeking out over Formula 1 races (yes, I can talk strategy for hours).
+
+🚀 Always exploring new tech, building cool projects, and chasing that perfect mix of performance and design
               </p>
 
               <div className="pt-4">
@@ -42,7 +52,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>UI/UX Design & Prototyping</span>
+                    <span>AI/ML projects</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
@@ -56,7 +66,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-8 md:mx-auto">
               <div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-6">
                   Technologies I Work With
@@ -71,30 +81,6 @@ const About = () => {
                       {skill}
                     </Badge>
                   ))}
-                </div>
-              </div>
-
-              <div className="bg-card border border-border rounded-xl p-6 shadow-elegant">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-4">
-                  Quick Stats
-                </h3>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="font-display text-2xl font-bold text-primary">50+</div>
-                    <div className="text-sm text-muted-foreground">Projects Completed</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="font-display text-2xl font-bold text-primary">5+</div>
-                    <div className="text-sm text-muted-foreground">Years Experience</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="font-display text-2xl font-bold text-primary">30+</div>
-                    <div className="text-sm text-muted-foreground">Happy Clients</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="font-display text-2xl font-bold text-primary">24/7</div>
-                    <div className="text-sm text-muted-foreground">Support</div>
-                  </div>
                 </div>
               </div>
             </div>
