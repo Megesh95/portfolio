@@ -11,15 +11,17 @@ const About = () => {
     "MySQL",
     "Git",
     "GitHub",
+    "AI/ML",
     "VS Code",
     "Jupyter",
-    "Vite"
+    "Vite",
+    "Oracle OCI services"
   ];
 
   return (
     <section id="about" className="py-20 bg-gradient-subtle">
-      <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto">
+      <div className="container mx-auto px-6 flex justify-center">
+        <div className="max-w-4xl w-full">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
               About Me

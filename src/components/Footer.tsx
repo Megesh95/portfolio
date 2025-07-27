@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-muted-foreground text-sm text-center md:text-left">
-            © 2024 Megeshwar JB. All rights reserved. Built with React & Tailwind CSS.
+            © 2025 Megeshwar JB
           </div>
         </div>
       </div>
